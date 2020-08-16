@@ -2836,6 +2836,9 @@ if the full version is not found
 ===================
 */
 static void FS_SetRestrictions( void ) {
+
+	return;
+
 	searchpath_t	*path;
 
 #ifndef PRE_RELEASE_DEMO

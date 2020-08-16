@@ -396,6 +396,7 @@ qboolean EmitMovEBXEDI(vm_t *vm, int andit) {
 VM_Compile
 =================
 */
+#ifndef DLL_ONLY
 void VM_Compile( vm_t *vm, vmHeader_t *header ) {
 	int		op;
 	int		maxLength;
@@ -1083,6 +1084,7 @@ void VM_Compile( vm_t *vm, vmHeader_t *header ) {
 #endif
 
 }
+#endif
 
 /*
 ==============
