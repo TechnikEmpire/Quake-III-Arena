@@ -1,0 +1,4 @@
+[submodule "modules\\libjpeg-turbo"]
+	path = modules\\libjpeg-turbo
+	url = https://github.com/libjpeg-turbo/libjpeg-turbo
+	ignore = dirty
